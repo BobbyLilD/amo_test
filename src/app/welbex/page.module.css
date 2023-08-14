@@ -175,7 +175,7 @@
 /* PAGE */
 .pageContainer {
   width: min(100dvw, 1440px);
-  height: 100dvh;
+  height: 100%;
   margin: auto;
   position: relative;
 }

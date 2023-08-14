@@ -6,7 +6,7 @@ const App = () => {
     <div className={styles.pageContainer}>
       <header className={styles.header}>
         <div className={styles.logoContainer}>
-          <Image width={140} height={24} src="/images/logo_welbex.png" />
+          <img width={140} height={24} src="/images/logo_welbex.png" />
           <sub className={[styles.textSub2, styles.logoSub].join(" ")}>
             крупный интегратор CRM в России и ещё 8 странах
           </sub>
