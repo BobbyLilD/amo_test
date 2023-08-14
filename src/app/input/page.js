@@ -41,7 +41,7 @@ const InputPage = () => {
   }, []);
 
   return (
-    <>
+    <div style={{background:'#fff', height: '100dvh'}}>
       <input placeholder="Seconds" type="text" />
 
       <button>Start</button>
@@ -52,7 +52,7 @@ const InputPage = () => {
       <span>hh:mm:ss</span>
 
       <script></script>
-    </>
+    </div>
   );
 };
 
